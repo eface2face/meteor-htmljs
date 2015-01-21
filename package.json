@@ -1,5 +1,6 @@
 {
   "name": "meteor-htmljs",
+  "repository": { "type": "git", "url": "https://github.com/eface2face/meteor-htmljs" },
   "version": "1.0.0",
   "main": "html.js",
   "scripts": {
