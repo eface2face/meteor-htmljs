@@ -1,4 +1,5 @@
 var _ = require("lodash");
+var HTML;
 HTML = {};
 
 IDENTITY = function (x) { return x; };
