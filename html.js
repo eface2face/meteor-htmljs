@@ -1,5 +1,6 @@
-var _ = require("lodash");
-var HTML;
+module.exports = function(Meteor) {
+  var _ = Meteor.underscore;
+  var HTML;
 HTML = {};
 
 IDENTITY = function (x) { return x; };
@@ -595,4 +596,5 @@ HTML.toText = function (content, textMode) {
   var visitor = new HTML.ToTextVisitor({textMode: textMode});;
   return visitor.visit(content);
 };
-module.exports = HTML;
+  Meteor.HTML = HTML;
+};
