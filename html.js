@@ -1,4 +1,5 @@
 module.exports = function(Meteor) {
+  var IDENTITY ,SLICE;
   var _ = Meteor.underscore;
   var HTML;
 HTML = {};
